@@ -1,6 +1,7 @@
 # Gleitmutter-fuer-M4-Mutter-OpenSCAD
 
 # Es wird keine Gewährleistung auf Stabilität gegeben!
+Für Nut6 Profil
 ## Sourcecode für Gleitmutter
 ![gleitmutter](https://user-images.githubusercontent.com/105192630/216111553-5b218d67-c50a-4ec4-9422-fb59d09c7e88.png)
 ## Lizenz
