@@ -10,14 +10,11 @@ module gleitmutter(rsize){
         translate([1.64,0,0]) rotate([0,90,0]) cylinder(h=4, r=rsize, center=true, $fn=6);
         translate([2, 0, 5.6]) linear_extrude(height = 4) rotate([0,0,90]) text("M4", halign = "center", size=3);
     }
-    translate([3.12, -1.5, -3.4]) rotate([150,0,0]) cube([0.2,0.2,1]);
+    translate([2.82, -1.2, -3.2]) rotate([150,0,0]) cube([0.5,0.5,1]);
 }
-//4.4
-//4.45
-//beste bis jetzt 4.5
 for(a = [0:1:4]){
     for(b = [0:1:4]){
-        translate([b*8,a*12,0]) gleitmutter(4.4);
+        translate([b*8,a*12,0]) gleitmutter(4.3);
         translate([0,b*12-0.5,-6]) cube([30,1,0.3]);
     }
     translate([a*8-0.5,0,-6]) cube([1,50,0.3]);
